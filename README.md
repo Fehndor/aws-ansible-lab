@@ -327,7 +327,7 @@ This section is intentionally included to help others avoid the same issues.
 
 ## What to Build Next
 
-Once the lab is running, here are suggested next steps for building your Ansible portfolio:
+Future plans:
 
 1. **Write your first playbook** — automate the installation of a web server (nginx/apache) on a new EC2 instance
 2. **Add inventory** — define your EC2 instances as AWX inventory and run playbooks through the UI
@@ -336,4 +336,4 @@ Once the lab is running, here are suggested next steps for building your Ansible
 5. **Build a workflow** — chain multiple playbooks together in an AWX workflow template
 6. **Infrastructure playbooks** — write Ansible to configure the PostgreSQL server itself, replacing the bash bootstrap script
 
-Each of these is a concrete GitHub commit that demonstrates real cloud automation skills.
+
