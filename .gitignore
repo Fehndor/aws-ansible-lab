@@ -1,0 +1,25 @@
+# Terraform state files - contain sensitive data, never commit these
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# terraform.tfvars contains your real IP and passwords - never commit this
+terraform.tfvars
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Override files (local overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# SSH keys - never commit these
+*.pem
+*.key
